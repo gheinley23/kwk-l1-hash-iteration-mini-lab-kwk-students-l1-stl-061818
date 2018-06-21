@@ -15,10 +15,10 @@ puts "Do you belive in love yes, no, or not yet"
 love_answer = gets.chomp
   if love_answer == "yes"
   love_life = "18-20 years old"
-  else love_answer == "not yet"
+  elsif love_answer == "not yet"
   love_life = "20-30 years old"
-  # else love_answer == "no"
-  #   love_life = "actually you won't find love"
+  else love_answer == "no"
+    love_life = "actually you won't find love"
   end
 if love_life == "18-20 years old" || "20-30 years old"
   puts "You will find love when you are #{love_life}!"
