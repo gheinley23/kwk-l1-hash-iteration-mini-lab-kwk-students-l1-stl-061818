@@ -21,9 +21,11 @@ love_answer = gets.chomp
     love_life = "actually you won't find love"
   end
   
-if love_life == "18-20 years old" || "20-30 years old"
+  puts "can it read love_life outside #{love_life}"
+  
+if love_life == "18-20 years old" || love_life == "20-30 years old"
   puts "You will find love when you are... #{love_life}!"
-else love_life != "18-20 years old" || "20-30 years old"
+else 
   love_life = "actually you won't find love"
   puts "You #{love_life}."
 end 
