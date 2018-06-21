@@ -14,7 +14,7 @@
 puts "Do you belive in love yes, no, or not yet"
 love_answer = gets.chomp
   if love_answer == "yes"
-  love_life = "18-20 years old"
+  love_life = "18-30 years old"
   elsif love_answer == "not yet"
   love_life = "20-30 years old"
   else love_answer == "no"
