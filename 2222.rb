@@ -22,7 +22,7 @@ love_answer = gets.chomp
   end
   
 if love_life == "18-20 years old" || "20-30 years old"
-  puts "You will find love when you are #{love_life}!"
+  puts "You will find love when you are... #{love_life}!"
 else love_life != "18-20 years old" || "20-30 years old"
   love_life = "actually you won't find love"
   puts "You #{love_life}."
